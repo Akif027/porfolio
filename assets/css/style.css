@@ -997,9 +997,14 @@ a:hover {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
+.portfolio-details-slider .swiper-slide img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  object-fit: contain; /* Ensures the image maintains its aspect ratio */
 }
+
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
